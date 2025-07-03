@@ -8,6 +8,7 @@ import ListItemsSocial from '../components/social';
 import "../src/styles/NavbarItems.css"
 import "../src/styles/Navbar.css"
 import './App.css';
+import CardsContainer from '../components/CardsContainer';
 
 function App() {
 
@@ -72,7 +73,7 @@ function App() {
         <main>
 
           <BackgroundImg fondoImg={"fondo-img"} fondo__contenedor1={"fondo__contenedor1"}>
-          <BackgroundPage fondo__titulo={"Centro de adopciones Nueva Esperanza"}  fondo__subtitulo={"Empezá adoptando hoy"}/>
+            <BackgroundPage fondo__titulo={"Centro de adopciones Nueva Esperanza"} fondo__subtitulo={"Empezá adoptando hoy"} />
           </BackgroundImg>
 
           {/* <BackgroundPage
@@ -89,11 +90,11 @@ function App() {
 
 
           <section>
-            <div classNameName="cards-container">
+            <CardsContainer>
 
               <Card
                 CardImg="/assets/119338bc3eaee96a980665c7ecfc8863.jpg"
-                
+
                 alt="Perro Golden Retriever llamado Cachito"
 
                 CardTitle="Cachito"
@@ -186,7 +187,7 @@ function App() {
                 href1="html/whiskers.html"
               />
 
-            </div>
+            </CardsContainer>
 
             <div classNameName="centrar-link-masinfo">
               <a classNameName="centrar-link-masinfo__link" href="#">Ver más...</a>
