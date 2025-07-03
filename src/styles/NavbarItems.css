@@ -1,0 +1,29 @@
+.navegacion__item {
+    display: inline-block;
+    list-style: none;
+}
+
+.navegacion__link {
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion__link:hover {
+    background-color: #00000056;
+}
+
+.navegacion__icono {
+    margin: 0 10px 0 0;
+}
+
+.activo {
+    background-color: white;
+    color: #000;
+}
+
+.activo:hover {
+    background-color: #00000056;
+    color: white;
+}
