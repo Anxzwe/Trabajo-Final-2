@@ -1,0 +1,8 @@
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__link--hover:hover {
+    border-radius: 6px;
+    background-color: #eeeeee;
+}

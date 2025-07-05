@@ -1,5 +1,5 @@
 import React from "react";
-import "../src/styles/NavbarItems.css"
+import "../styles/CardContainer.css";
 
 function CardsContainer({ children }) {
     return (

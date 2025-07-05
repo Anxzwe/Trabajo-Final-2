@@ -1,5 +1,5 @@
 import React from "react";
-import "../src/styles/BackgroundPage.css";
+import "../styles/BackgroundPage.css";
 
 function BackgroundPage({ fondo__titulo, fondo__subtitulo }) {
     return (
