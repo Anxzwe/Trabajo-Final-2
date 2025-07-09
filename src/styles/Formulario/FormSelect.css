@@ -1,0 +1,9 @@
+.formulario__select {
+    border: 1.5px solid #222;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    margin: 10px auto;
+    width: 95%;
+    padding: 9px;
+}

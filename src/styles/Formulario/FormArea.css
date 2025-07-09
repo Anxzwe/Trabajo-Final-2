@@ -1,0 +1,9 @@
+.formulario__textarea {
+    color: #222;
+    border: 1.5px solid #222;
+    border-radius: 3px;
+    box-sizing: border-box;
+    resize: none;
+    width: 100%;
+    margin-top: 15px;
+}

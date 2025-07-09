@@ -1,0 +1,31 @@
+.gallery__container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 15px;
+    padding: 0 20px 40px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* Hover efecto */
+.gallery__img:hover {
+    transform: scale(1.02);
+}
+
+/* Imágenes destacadas */
+.gallery__container1>*:nth-child(2),
+.gallery__container1>*:nth-child(11),
+.gallery__container1>*:nth-child(10),
+.gallery__container1>*:nth-child(13) {
+    grid-column: span 2;
+    grid-row: span 2;
+}

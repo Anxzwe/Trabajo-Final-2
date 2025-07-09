@@ -1,0 +1,9 @@
+.formulario__label {
+    color: #222;
+    margin-left: 2.8%;
+    display: block;
+}
+
+.formulario__label--design {
+    margin-left: 0;
+}
