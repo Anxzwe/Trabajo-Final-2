@@ -9,7 +9,6 @@
     background-color: rgba(0, 0, 0, 0.358);
 }
 
-/* Estilos base del ítem deshabilitado */
 .navbar__link--disabled {
     color: gray;
     cursor: not-allowed;
@@ -18,51 +17,4 @@
     align-items: center;
     gap: 0.5rem;
     text-decoration: none;
-}
-
-/* Contenedor del tooltip */
-.tooltip-container {
-    position: relative;
-}
-
-/* Tooltip visual */
-.tooltip-text {
-    visibility: hidden;
-    opacity: 0;
-    width: max-content;
-    max-width: 200px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 6px 8px;
-    border-radius: 6px;
-    font-size: 0.75rem;
-    position: absolute;
-    bottom: 120%;
-    /* Lo posiciona arriba del texto */
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    z-index: 10;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-}
-
-/* Flechita del tooltip */
-.tooltip-text::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    /* Posiciona la flecha abajo del tooltip */
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 6px;
-    border-style: solid;
-    border-color: #333 transparent transparent transparent;
-}
-
-/* Mostrar el tooltip al hacer hover */
-.tooltip-container:hover .tooltip-text {
-    visibility: visible;
-    opacity: 1;
 }

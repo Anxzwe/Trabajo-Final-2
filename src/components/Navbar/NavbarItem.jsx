@@ -6,7 +6,7 @@ import '../../styles/Navbar/NavbarLi.css';
 
 export default function NavbarItem({ href, IconText, iconClasses, disabled}) {
     return (
-        //  Ya se que dijieron que si algo no se usa como una sección por ejemplo o un enlace, botón etc es preferible directamente no ponerlo pero... NO ME VAN A NEGAR LA FACHA QUE TIENE ESE LI!! ASJDKASJDHA. Sepan tomar algo de humor después de que estuve 3 semanas seguidas durante horas trabajando en este proyecto :) (Son las 4am y todavia no termino jsjsjs).
+        //  Ya se que dijieron que si algo no se usa como una sección por ejemplo o un enlace, botón etc es preferible directamente no ponerlo pero... NO ME VAN A NEGAR LA FACHA QUE TIENE ESE LI !! ASJDKASJDHA. Sepan tomar algo de humor después de que estuve 3 semanas seguidas durante horas trabajando en este proyecto :) (Son las 4am y todavia no termino jsjsjs).
         <li className="navbar__item">
             {disabled ? (
                 <span className="navbar__link navbar__link--disabled" title="Sección aún no disponible">

@@ -3,11 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* Mejor centrado para la galería */
-    gap: 24px;
-    /* Un poco más de separación */
+    gap: 35px;
     max-width: 1200px;
-    /* Limitar ancho máximo */
     margin-left: auto;
     margin-right: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

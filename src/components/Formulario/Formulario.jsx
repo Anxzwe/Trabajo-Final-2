@@ -29,7 +29,6 @@ export default function Formulario() {
         e.preventDefault();
         console.log('Formulario enviado:', formData);
 
-        // Resetear campos después de enviar
         setFormData({
             name: '',
             surname: '',
@@ -105,8 +104,8 @@ export default function Formulario() {
                         <FormSelect
                             id={"genre"}
                             name={"genre"}
-                            text={"Selecciona tu género"}
-                            optiontext={"Selecciona tu género"}
+                            text={"Selecciona uno"}
+                            optiontext={"Selecciona uno"}
                             required={true}
                             value={formData.genre}
                             onChange={handleChange}
@@ -153,6 +152,7 @@ export default function Formulario() {
                             maxLength={"12"}
                             value={formData.tel}
                             onChange={handleChange}
+                            min={"0"}
                         />
 
                     </fieldset>

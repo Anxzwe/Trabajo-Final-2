@@ -32,7 +32,7 @@
 
 .card__title {
     margin: 12px 0 6px 0;
-    font-size: 1.5rem; /* 24px aproximado */
+    font-size: 1.5rem;
     color: #333333;
     font-weight: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -40,12 +40,12 @@
 
 .card__icon {
     margin: 15px 0;
-    color: #6c757d; /* Un gris suave para íconos */
+    color: #6c757d;
 }
 
 .card__text {
     margin: 6px 0 0 0;
-    font-size: 0.875rem; /* 14px */
-    color: #6b6b6b; /* Un gris más moderno */
+    font-size: 0.875rem;
+    color: #6b6b6b;
     line-height: 1.4;
 }

@@ -1,7 +1,7 @@
 .gradient-bc {
     background: url(../../assets/gradient4.svg);
-    background-size: 271rem 157rem;
     /* background-size: 303rem 160rem; Pantallas grandes*/ 
+    background-size: 271rem 157rem;
     height: 100%;
     padding: 7rem 0 5rem;
 }
