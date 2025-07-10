@@ -31,12 +31,10 @@
     cursor: pointer;
 }
 
-/* Hover efecto */
 .gallery__img:hover {
     transform: scale(1.02);
 }
 
-/* Imágenes destacadas */
 .gallery__container1>*:nth-child(2),
 .gallery__container1>*:nth-child(11),
 .gallery__container1>*:nth-child(10),

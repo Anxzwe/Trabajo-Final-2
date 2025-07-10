@@ -6,7 +6,7 @@ export default function FooterSocial({ icon, href }) {
     return (
         <li>
             <a
-                className='footer__link  footer__link--hover'
+                className='footer__link  footer__link--hover footer__link--size'
                 href={href} target="_blank"
                 rel="noopener noreferrer">
                 <i className={icon}></i>

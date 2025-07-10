@@ -1,6 +1,10 @@
+.adoptions {
+    background-color: #fefefe;
+}
+
 .adoptions__title {
     text-align: center;
     font-family: Limelight;
-    margin: 13vh 0 0 0;
+    padding: 13vh 0 0 0;
     font-size: 4rem;
 }

@@ -28,7 +28,7 @@ export default function Formulario() {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('Formulario enviado:', formData);
-    
+
         // Resetear campos después de enviar
         setFormData({
             name: '',
@@ -61,7 +61,7 @@ export default function Formulario() {
                             id={"name"}
                             classN={"formulario__input"}
                             type={"text"}
-                            placeholder={"Nombre"}
+                            placeholder={"Estanislao"}
                             required={true}
                             maxLength={"30"}
                             value={formData.name}
@@ -76,7 +76,7 @@ export default function Formulario() {
                             id={"surname"}
                             classN={"formulario__input"}
                             type={"text"}
-                            placeholder={"Apellido"}
+                            placeholder={"Eustaquio"}
                             required={true}
                             maxLength={"30"}
                             value={formData.surname}
@@ -160,7 +160,7 @@ export default function Formulario() {
 
                     {/* Feedback */}
 
-                    <FormLabel labelFor={"formTextarea"} classN={"formulario__label--design"} text={"Feedback"} />
+                    <FormLabel labelFor={"formTextarea"} classN={"formulario__label--position"} text={"Feedback"} />
 
                     <FormArea
                         name={"feedback"}
@@ -209,13 +209,13 @@ export default function Formulario() {
                             classN={"formulario__button"}
                             type={"reset"}
                             onClick={() => setFormData({
-                                name: '', 
-                                surname: '', 
-                                age: '', 
+                                name: '',
+                                surname: '',
+                                age: '',
                                 genre: '',
-                                email: '', 
-                                tel: '', 
-                                feedback: '', 
+                                email: '',
+                                tel: '',
+                                feedback: '',
                                 notifications: false
                             })}
                         />

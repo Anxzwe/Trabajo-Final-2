@@ -6,3 +6,7 @@
     border-radius: 6px;
     background-color: #eeeeee;
 }
+
+.footer__link--size{
+    font-size: 1.3rem;
+}
