@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "../../styles/Card/CardContainer.css";
 
 export default function CardsContainer({ children }) {
@@ -13,3 +14,7 @@ export default function CardsContainer({ children }) {
         </div>
     )
 }
+
+CardsContainer.propTypes = {
+    children: PropTypes.node.isRequired,
+};

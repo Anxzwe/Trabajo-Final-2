@@ -1,0 +1,36 @@
+.navbar__item {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.navbar__link {
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__link:hover {
+    background-color: #00000056;
+}
+
+.navbar__link--active {
+    background-color: white;
+    color: #000;
+}
+
+.navbar__link--active:hover {
+    background-color: #00000056;
+    color: white;
+}
+
+.navbar__icon {
+    margin: 0 10px 0 0;
+}
+
+.navbar__link--disabled {
+    color: rgb(140, 140, 140);
+    cursor: not-allowed;
+    text-decoration: none;
+}

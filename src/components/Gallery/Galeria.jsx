@@ -7,11 +7,9 @@ import '../../styles/Gallery/Galeria.css';
 export default function Galeria() {
     return (
 
-        <main>
-
-            <section class="gallery">
-
-                <h1 class="gallery__title">Galeria del refugio</h1>
+        <section className="gallery">
+            <main>
+                <h1 className="gallery__title">Galeria del refugio</h1>
 
                 <PhotoProvider>
                     <div className="gallery__container1">
@@ -20,10 +18,8 @@ export default function Galeria() {
                         ))}
                     </div>
                 </PhotoProvider>
-
-            </section>
-
-        </main>
+            </main>
+        </section>
 
     );
 }

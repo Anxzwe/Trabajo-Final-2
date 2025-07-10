@@ -1,13 +1,17 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "../../styles/Home/BackgroundPage.css";
 
-function BackgroundPage({ fondo__titulo, fondo__subtitulo }) {
+export default function BackgroundPage({ title, subtitle }) {
     return (
         <div className="fondo__contenedor2">
-            <h1 className="fondo__titulo">{fondo__titulo}</h1>
-            <h2 className="fondo__subtitulo">{fondo__subtitulo}</h2>
+            <h1 className="fondo__titulo">{title}</h1>
+            <h2 className="fondo__subtitulo">{subtitle}</h2>
         </div>
     )
 }
 
-export default BackgroundPage
+BackgroundPage.propTypes = {
+    title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string.isRequired,
+};

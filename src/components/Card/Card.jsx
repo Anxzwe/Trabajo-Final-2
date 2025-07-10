@@ -1,8 +1,9 @@
 import React from "react";
-import "../../styles/Card/Card.css";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import "../../styles/Card/Card.css";
 
-function Card({ text, title, img, href, alt, icon }) {
+export default function Card({ text, title, img, href, alt, icon }) {
     return (
         <Link className="card-link" to={href}>
             
@@ -21,4 +22,11 @@ function Card({ text, title, img, href, alt, icon }) {
     )
 }
 
-export default Card
+Card.propTypes = {
+    text: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    href: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+};
