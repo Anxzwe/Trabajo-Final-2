@@ -1,16 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "../../styles/Footer/FooterSocial.css";
 
 export default function FooterSocial({ icon, href }) {
     return (
         <li>
-            <a
-                className='footer__link  footer__link--hover footer__link--size'
-                href={href} target="_blank"
+            <Link
+                className='footer__link  footer__link--hover  footer__link--size'
+                to={href} target="_blank"
                 rel="noopener noreferrer">
                 <i className={icon}></i>
-            </a>
+            </Link>
         </li>
     );
 }

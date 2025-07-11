@@ -60,7 +60,7 @@ export default function Formulario() {
                             id={"name"}
                             classN={"formulario__input"}
                             type={"text"}
-                            placeholder={"Estanislao"}
+                            placeholder={"Roselio"}
                             required={true}
                             maxLength={"30"}
                             value={formData.name}
@@ -75,7 +75,7 @@ export default function Formulario() {
                             id={"surname"}
                             classN={"formulario__input"}
                             type={"text"}
-                            placeholder={"Eustaquio"}
+                            placeholder={"Posadas"}
                             required={true}
                             maxLength={"30"}
                             value={formData.surname}
@@ -104,8 +104,8 @@ export default function Formulario() {
                         <FormSelect
                             id={"genre"}
                             name={"genre"}
-                            text={"Selecciona uno"}
-                            optiontext={"Selecciona uno"}
+                            text={"Selecciona un género"}
+                            optiontext={"Selecciona un género"}
                             required={true}
                             value={formData.genre}
                             onChange={handleChange}
@@ -207,7 +207,9 @@ export default function Formulario() {
 
                         <FormInput
                             classN={"formulario__button"}
-                            type={"reset"}
+                            //  Tuve que hacer que sea type button y no reset, porque sino cuando yo lo apreto, el options, en vez de quedarme en "Selecciona un género" me quedaba en la opción hombre y no deberia de pasar eso.
+                            type={"button"}
+                            value={"Resetear"}
                             onClick={() => setFormData({
                                 name: '',
                                 surname: '',
