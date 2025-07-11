@@ -30,7 +30,7 @@ export default function NavbarItem({ href, IconText, iconClasses, disabled}) {
 }
 
 NavbarItem.propTypes = {
-    href: PropTypes.string,
+    href: PropTypes.string.isRequired,
     IconText: PropTypes.string.isRequired,
     iconClasses: PropTypes.string.isRequired,
     disabled: PropTypes.bool

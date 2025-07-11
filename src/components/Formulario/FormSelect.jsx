@@ -2,7 +2,15 @@ import React from 'react'
 import PropTypes from "prop-types";
 import '../../styles/Formulario/FormSelect.css';
 
-export default function FormSelect({ id, name, required, optiontext, options, value, onChange }) {
+export default function FormSelect({ 
+
+    id, 
+    name, 
+    required, 
+    optiontext, 
+    options, 
+    value, 
+    onChange }) {
 
     return (
         <select
@@ -38,4 +46,6 @@ FormSelect.propTypes = {
             label: PropTypes.string.isRequired,
         })
     ).isRequired,
+    value: PropTypes.string.isRequired,
+    onChange: PropTypes.func.isRequired
 };

@@ -47,5 +47,23 @@ FormInput.propTypes = {
     placeholder: PropTypes.string,
     required: PropTypes.bool,
     name: PropTypes.string,
-    onClick: PropTypes.func
+    value: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]),
+    onChange: PropTypes.func,
+    maxLength: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]),
+    min: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]),
+    max: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.number
+    ]),
+    onClick: PropTypes.func,
+    checked: PropTypes.bool
 };

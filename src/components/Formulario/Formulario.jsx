@@ -209,7 +209,7 @@ export default function Formulario() {
                             classN={"formulario__button"}
                             //  Tuve que hacer que sea type button y no reset, porque sino cuando yo lo apreto, el options, en vez de quedarme en "Selecciona un género" me quedaba en la opción hombre y no deberia de pasar eso.
                             type={"button"}
-                            value={"Resetear"}
+                            value={"Restablecer"}
                             onClick={() => setFormData({
                                 name: '',
                                 surname: '',
